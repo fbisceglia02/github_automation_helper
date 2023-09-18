@@ -1,2 +1,2 @@
 # github_automation_helper
-This is a GitHub actions meant to help with automating GitHub tasks
+This is a javascript GitHub action meant to help with automating GitHub tasks
