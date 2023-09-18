@@ -16,4 +16,4 @@ jobs:
       - name: Run Your Action
         uses: ./ # Use the path to your local action code
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PAT_TOKEN }}
