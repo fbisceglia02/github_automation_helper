@@ -1,0 +1,19 @@
+name: Test Workflow
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Run Your Action
+        uses: ./ # Use the path to your local action code
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
