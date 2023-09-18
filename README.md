@@ -17,4 +17,4 @@ The dependencies we need to install are @actions/core and @actions/github
 `npm install @actions/core @actions/github`
 
 
-testbranch
+branch  
