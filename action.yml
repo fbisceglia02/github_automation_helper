@@ -1,3 +1,11 @@
 name: Issue and PR automation
 description: Automates issue and pull request management
 author: 'fbisceglia02'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub Token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
