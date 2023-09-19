@@ -1,9 +1,3 @@
 name: Issue and PR automation
 description: Automates issue and pull request management
-inputs:
-  github-token:
-    description: 'GitHub token'
-    required: true
-runs:
-  using: 'node14'
-  main: 'index.js'
+author: 'fbisceglia02'
