@@ -11,9 +11,3 @@ It uses the GitHub API to interact with issues and pull requests, such as closin
 
 ---
 
-## Dependencies installed
-The dependencies we need to install are @actions/core and @actions/github
-
-`npm install @actions/core @actions/github`
-
-
